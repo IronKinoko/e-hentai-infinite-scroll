@@ -2,6 +2,8 @@
 
 Exhentai infinite scroll scripts.
 
-## Install
+Exhentai 无限滚动阅读脚本
 
-[Click here](https://raw.githubusercontent.com/IronKinoko/e-hentai-infinite-scroll/master/index.user.js)
+## Install/安装
+
+[Click here/点此](https://raw.githubusercontent.com/IronKinoko/e-hentai-infinite-scroll/master/index.user.js)
