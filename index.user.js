@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         e-hentai-infinite-scroll
 // @namespace    https://github.com/IronKinoko/e-hentai-infinite-scroll
-// @version      1.0.1
+// @version      1.0.2
 // @description  Exhentai infinite scroll scripts.
 // @author       IronKinoko
 // @match        https://exhentai.org/s/*
@@ -171,7 +171,7 @@
     if (url.searchParams.has("p")) {
       currentPage = +url.searchParams.get("p");
     }
-    const pageCount = +$("body > div:nth-child(9) > table > tbody > tr > td:nth-last-child(2)").textContent;
+    const pageCount = +$(".gtb .ptb td:nth-last-child(2)").textContent;
     const unloadPageCount = pageCount - 1 - currentPage;
     let unloadPageLinks = Array(unloadPageCount).fill(0).map((_, i) => {
       url.searchParams.set("p", 1 + currentPage + i + "");

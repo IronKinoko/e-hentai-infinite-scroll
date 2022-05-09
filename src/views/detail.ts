@@ -27,9 +27,7 @@ function getPageInfo(): Info {
     currentPage = +url.searchParams.get('p')!
   }
 
-  const pageCount = +$(
-    'body > div:nth-child(9) > table > tbody > tr > td:nth-last-child(2)'
-  ).textContent!
+  const pageCount = +$('.gtb .ptb td:nth-last-child(2)').textContent!
 
   const unloadPageCount = pageCount - 1 - currentPage
   let unloadPageLinks = Array(unloadPageCount)
@@ -73,8 +71,11 @@ export default async function setup() {
 
   document.addEventListener('scroll', () => {
     const dom = document.scrollingElement!
-    
-    if ($('#cdiv').getBoundingClientRect().y <= dom.scrollTop + dom.clientHeight + 2000) {
+
+    if (
+      $('#cdiv').getBoundingClientRect().y <=
+      dom.scrollTop + dom.clientHeight + 2000
+    ) {
       loadNextPage(info)
     }
   })
