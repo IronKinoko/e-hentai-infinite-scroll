@@ -8,6 +8,7 @@ const banner = `// ==UserScript==
 // @match        https://exhentai.org/s/*
 // @match        https://exhentai.org/g/*
 // @grant        none
+// @updateURL    https://github.com/IronKinoko/e-hentai-infinite-scroll/raw/master/index.user.js
 // ==/UserScript==
 `
 
