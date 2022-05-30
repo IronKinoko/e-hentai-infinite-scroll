@@ -1,7 +1,7 @@
 {
   "name": "e-hentai-infinite-scroll",
   "description": "Exhentai infinite scroll scripts.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.user.js",
   "scripts": {
     "dev": "node scripts/build.js --watch",

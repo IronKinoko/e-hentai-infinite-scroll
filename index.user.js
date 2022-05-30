@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         e-hentai-infinite-scroll
 // @namespace    https://github.com/IronKinoko/e-hentai-infinite-scroll
-// @version      1.0.2
+// @version      1.0.3
 // @description  Exhentai infinite scroll scripts.
 // @author       IronKinoko
 // @match        https://exhentai.org/s/*
 // @match        https://exhentai.org/g/*
 // @grant        none
+// @updateURL    https://github.com/IronKinoko/e-hentai-infinite-scroll/raw/master/index.user.js
 // ==/UserScript==
 
 (() => {
