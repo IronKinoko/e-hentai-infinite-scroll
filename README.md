@@ -1,5 +1,7 @@
 # e-hentai-infinite-scroll
 
+This repo has been moved to [IronKinoko/userscripts](https://github.com/IronKinoko/userscripts/tree/master/packages/e-hentai-infinite-scroll)
+
 Exhentai infinite scroll scripts.
 
 Exhentai 无限滚动阅读脚本
